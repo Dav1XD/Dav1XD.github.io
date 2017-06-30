@@ -27,7 +27,8 @@ p{
 	font-family: Arial;
 	font-size:25px;
 	color:#D3D3D3;
-	padding: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 .corpo{
 	border:1px solid #008B8B;
