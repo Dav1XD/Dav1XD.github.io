@@ -36,7 +36,7 @@ p{
 
 
 }
-h2{
+#first{
 	font-family:Arial;
 	padding: 30px;
 	color:#D3D3D3;
@@ -62,8 +62,8 @@ h1{
 }
 
 .conhecimentos{
-	padding: 30px;
 	text-align: center;
+	padding: 0px 30px 30px 30px;
 
 
 }
