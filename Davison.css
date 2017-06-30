@@ -1,11 +1,9 @@
 #photo img{
-	width: 250px;
 	height: 250px;
 	border-radius: 50%;
 	border-style: 2px solid black;
-	position: relative;
-	left:580px;
-	top: 40px;
+	display: block;	
+	margin: 0 auto;
 	
 }
 
@@ -17,6 +15,11 @@
 	top:350px;
 	font-size:45px;
 
+}
+
+body{
+
+	margin: 0;
 }
 
 p{
