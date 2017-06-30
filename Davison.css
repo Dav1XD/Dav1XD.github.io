@@ -1,10 +1,10 @@
 #photo img{
 	height: 250px;
-	border-radius: 50%;
-	border-style: 2px solid black;
-	display: block;	
-	margin: 0 auto;
+    border-radius: 50%;
 	
+}
+#photo {
+	padding-top: 30px;
 }
 
 #uni7 h3{
