@@ -37,7 +37,7 @@ p{
 }
 h2,h1{
 	font-family:Arial;
-	padding-left: 30px;
+	padding: 30px;
 	color:#D3D3D3;
 }
 #redes img, a{
@@ -67,7 +67,6 @@ h2,h1{
 .habilidades{
 	background-color:#black;
 	border-radius: 1em;
-	height:50px;
 	width: 150px;
 	text-align: center;
 	display: inline-block;
@@ -76,7 +75,7 @@ h2,h1{
     margin: 5px;
     border: 2px solid #fff;
     color:#fff;
-    padding: 1px;
+    padding: 30px;
 }
 
 
