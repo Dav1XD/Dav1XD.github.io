@@ -36,11 +36,12 @@ p{
 
 
 }
-#first{
+body h1{
 	font-family:Arial;
 	padding: 30px;
 	color:#D3D3D3;
 }
+
 h1{
 	font-family: Arial;
 	color:#D3D3D3;
