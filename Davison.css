@@ -62,6 +62,10 @@ h2,h1{
 
 
 }
+#conhecimentos{
+
+	padding:30px;
+}
 
 
 .habilidades{
@@ -75,7 +79,7 @@ h2,h1{
     margin: 5px;
     border: 2px solid #fff;
     color:#fff;
-    padding: 30px;
+    padding: 5px;
 }
 
 
