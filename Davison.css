@@ -1,7 +1,7 @@
 #photo img{
 	height: 250px;
     border-radius: 50%;
-    margin-bottom:20px;
+    margin-bottom:30px;
 	
 }
 #photo {
@@ -21,6 +21,7 @@
 body{
 
 	margin: 0;
+
 }
 
 p{
@@ -65,31 +66,57 @@ h1{
 .conhecimentos{
 	text-align: center;
 	padding: 0px 30px 30px 30px;
+    
 
 
 }
 #conhecimentos{
-
-	padding:30px;
+    display: table;
+    background-color: aqua;
+    width:100%;
 }
 
 
-.habilidades{
-	background-color:#black;
-	border-radius: 1em;
-	width: 150px;
-	text-align: center;
-	display: inline-block;
-	font-family: arial;
-    font-size: 25px;
-    margin: 5px;
-    border: 2px solid #fff;
-    color:#fff;
-    padding: 5px;
+#conhecimentos h1{
+    color:black; 
 }
 
 
-.habilidades:hover {
-  background: #808080;
-  color: #FFF;
+.grow{
+	height: 150px;
+    width: 150px;
+    float:left;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    transition:all 0.3s ease;
+}
+#linux{
+    margin-bottom: 0;
+}
+.grow img {
+    height: 60px;
+    width: 60px;
+    padding-left:47px;
+    padding-top:40px;
+}
+
+
+.grow:hover {
+  -webkit-transform: scale(1.0);
+    -ms-transform: scale(1.1);
+    transform: scale(1.4);
+}
+
+@media (max-width: 600px){
+	#photo img{
+		width:150px;
+		height: 150px;
+
+	}
+	#redes img{
+		width:50px;	
+		height: 50px;
+
+	}
+
 }
